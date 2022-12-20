@@ -1,0 +1,73 @@
+.banner-container{
+    background-image: url("..\img\My-project.png");
+    background-attachment: fixed;
+    text-align: center;
+    padding:190px 15px; 
+    background-position: center;
+}
+#ban{
+    background-image: url("../img/My-project.png");
+    background-size: cover;
+}
+    
+.dis{
+    display:flex;
+}
+*{
+    box-sizing: border-box;
+}
+
+div h3{
+    text-align: center;
+}
+
+a img:hover{
+    cursor:pointer;
+    box-shadow: 10px 22px 30px 10px rgba(0,0,0,0.24);
+    
+}
+
+.row{
+    margin-top: 40px;
+}
+.rounded-circle{
+    border-width: 3px;
+    border-color: black;
+}
+a img {
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
+    border-width:2px;
+    
+    
+}
+.city-search {
+    max-width: 530px;
+    margin: auto;
+    position: relative;
+}
+.carousel-inner{
+    height:300px;
+}
+.footer{
+    width:100%;
+    margin-top: 50px;
+}
+.image-container{
+    margin: 25px;
+}
+.grey{
+    text-align: center;
+}
+.header{
+    color:darkcyan;
+}
+div h5,h6{
+    color:white;
+    text-align: center;
+}
+.rounded-circle:hover{
+   
+    z-index:999;
+}
